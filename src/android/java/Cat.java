@@ -13,6 +13,7 @@ public class Cat {
     }
 
     public void heihei() {
+        System.out.println("OK");
         System.out.println("hei hei!!!");
         System.out.printf("My name is %s, and i like %s color, now i'm %s years old\n", this.name, this.color, this.age);
     }
