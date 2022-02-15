@@ -1,5 +1,7 @@
 package android.java;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Locale;
 
 public class HelloWorld {
@@ -48,6 +50,8 @@ public class HelloWorld {
 //        }
 //        System.out.println(array[0]);
         System.out.println(Locale.getDefault());
+        String imageName = new SimpleDateFormat("yyyyMMdd_HHmmss", Locale.getDefault()).format(new Date());
+        System.out.println(imageName);
     }
 
 }
